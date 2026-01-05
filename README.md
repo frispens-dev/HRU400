@@ -1,6 +1,7 @@
 # esphome-HRU400
 
 This repo will help you manage your HRU400 WTW trough modbus.
+Cloned from https://github.com/william-sy/esphome-Itho-Daalderop-HRU400 with some adjustments
 
 ## Needed items
 
