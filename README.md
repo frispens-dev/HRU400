@@ -1,11 +1,12 @@
 # esphome-HRU400
 
 This repo will help you manage your HRU400 WTW trough modbus.
-Clone from: https://github.com/william-sy/esphome-Itho-Daalderop-HRU400
+Clone from: 
+https://github.com/william-sy/esphome-Itho-Daalderop-HRU400
 
 Made some adjustments:
-- Added zones
-- changed tr/rx pin IDs for Atom Lite
+- Added zone specific reads (position step per zone + flow demand)
+
 
 ## Needed items
 
