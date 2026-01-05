@@ -23,7 +23,8 @@ sensor:
     unit_of_measurement: m3/h
     address: 3200
     state_class: measurement
-    data_type: int16
+    value_type: U_WORD
+    register_type: holding
     platform: modbus_controller
     modbus_controller_id: ${modbus_id}
   # unbalanced_flow_zone2
@@ -31,7 +32,8 @@ sensor:
     unit_of_measurement: m3/h
     address: 3201
     state_class: measurement
-    data_type: int16
+    value_type: U_WORD
+    register_type: holding
     platform: modbus_controller
     modbus_controller_id: ${modbus_id}
   # unbalanced_flow_zone3
@@ -39,7 +41,8 @@ sensor:
     unit_of_measurement: m3/h
     address: 3202
     state_class: measurement
-    data_type: int16
+    value_type: U_WORD
+    register_type: holding
     platform: modbus_controller
     modbus_controller_id: ${modbus_id}
   # unbalanced_flow_zone4
@@ -47,7 +50,8 @@ sensor:
     unit_of_measurement: m3/h
     address: 3203
     state_class: measurement
-    data_type: int16
+    value_type: U_WORD
+    register_type: holding
     platform: modbus_controller
     modbus_controller_id: ${modbus_id}
   # - name: ${s_3000}
