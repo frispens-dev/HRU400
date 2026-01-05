@@ -55,52 +55,6 @@ sensor:
     platform: modbus_controller
     modbus_controller_id: ${modbus_id}
 
-  # position_stepper_zone1
-  - name: ${s_2034}
-    unit_of_measurement: steps
-    address: 2034
-    state_class: measurement
-    value_type: U_WORD
-    register_type: holding
-    platform: modbus_controller
-    modbus_controller_id: ${modbus_id}
-  # position_stepper_zone2
-  - name: ${s_2036}
-    unit_of_measurement: steps
-    address: 2036
-    state_class: measurement
-    value_type: U_WORD
-    register_type: holding
-    platform: modbus_controller
-    modbus_controller_id: ${modbus_id}
-  # position_stepper_zone3
-  - name: ${s_2038}
-    unit_of_measurement: steps
-    address: 2038
-    state_class: measurement
-    value_type: U_WORD
-    register_type: holding
-    platform: modbus_controller
-    modbus_controller_id: ${modbus_id}
-  # position_stepper_zone4
-  - name: ${s_2040}
-    unit_of_measurement: steps
-    address: 2040
-    state_class: measurement
-    value_type: U_WORD
-    register_type: holding
-    platform: modbus_controller
-    modbus_controller_id: ${modbus_id}
-    
-  # ventilation_level_zone1
-  - name: ${s_2200}
-    address: 2200
-    state_class: measurement
-    value_type: U_WORD
-    register_type: holding
-    platform: modbus_controller
-    modbus_controller_id: ${modbus_id}
-
   # - name: ${s_3000}
   #   address: 3000
   #   unit_of_measurement: '%'
