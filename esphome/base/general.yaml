@@ -1,13 +1,3 @@
-button:
-  - platform: template
-    name: "HRU400 Unbalanced Flow Zone 3"
-    on_press:
-      - modbus.write_register:
-          address: 2214
-          value: 399
-      - modbus.write_register:
-          address: 2215
-          value: 1
 sensor:
   # massflow intake
   - name: ${s_2020}
